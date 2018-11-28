@@ -1,6 +1,6 @@
 def compute_sum(list1):
     if not isinstance(list1, list):
-        return 'Invalid argument type. This should be a list'
+        return 'Wrong input'
     mysum=0
     for a in list1:
         if isinstance(a,int):
